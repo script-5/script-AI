@@ -1,4 +1,5 @@
 // ExtendScript для Adobe Illustrator 23.0.5
+//Указатель направления печати при шкале -5 от края артборда
 (function main() {
     if (app.documents.length === 0) {
         alert("Нет открытого документа");
